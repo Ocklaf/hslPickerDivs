@@ -1,0 +1,14 @@
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.square {
+  height: 100px;
+  flex-grow: 1;
+  background-color: hsl(hue, saturation, lightness);
+}
